@@ -10,8 +10,6 @@ package sem09_kryonet;
  * @author edgar
  */
 
-// ToDo: Read and investigate Packet reason
-
 public class Packet {
     public static class Packet01Message {
         String message;
