@@ -132,10 +132,6 @@ public class ClientApp {
                 variations.add(variation);
             }
         }
-        
-//        for (Variation v : variations) {
-//            System.out.println(v.toString());
-//        }
     }
     
     private void addLuckyNumber() {
