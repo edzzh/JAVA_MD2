@@ -35,7 +35,7 @@ public class ClientApp {
                 System.out.println(input.next() + " - is not a number");
             }
             variationCount = input.nextInt();
-        } while ((variationCount > 5) && (variationCount < 1));
+        } while ((variationCount > 5) || (variationCount < 1));
         
         System.out.println("Do you want if all the variations is generated randomly? (YES/NO)");
         userInput = input.next();
